@@ -14,7 +14,9 @@ const App = () => {
         // if it doesn't 
             // set it as seen below
         setTodoValue(event.currentTarget.value);
-        // if it does exist, change the task value to the new value in the todos_hash
+        // if it does exist, 
+            // add another button to say delete
+            // change the task value to the new value in the todos_hash
         // then set the value in the UI. 
       };
 
