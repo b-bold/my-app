@@ -5,6 +5,9 @@ interface Props extends HTMLProps<HTMLFormElement> {
   inputValue: string;
 }
 
+// change logic here to have 3 buttons: create, edit and delete
+// change button in props to be a boolean that is create when the text box is empty but then has edit (if the id exists) and delete when not
+
 const TodoForm = ({ onInputChange, inputValue, ...props }: Props) => {
   return (
     <form {...props}>
